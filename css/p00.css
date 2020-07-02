@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family:helvetica, arial, sans-serif;
+    background-color: white;
+    
+}
+
+header{
+  background-color: #333333;
+  color: #ffffff;
+  position: sticky;
+    top: 0;
+  width:100%;
+}
+
+.logo{
+    text-align: center;
+    
+}
+
+.logo img{
+    max-width: 100px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #ffffff;
+   
+}
+
+.navigation{
+    display:flex;
+    justify-content:center;
+}
+
+.navigation ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.navigation>ul{
+	display:flex;
+}
+/*.navigation{
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width:100%;
+}*/
+
+.navlist a{
+	display:block;
+	color:white;
+	text-decoration:none;
+	padding: 12px;
+	box-sizing: border-box;
+}
+
+.navlist{
+    list-style: none;
+    margin: 0;
+    padding:0;
+    text-align: center;
+}
+
+.navlist li{
+    display:inline;
+}
+
+.navlist a{
+    display: inline-block;
+    padding: 15px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.navlist a:hover{
+    /*background-color: aquamarine;*/
+    color: bisque;
+}
+
+.dropdown{
+	position:relative;
+}
+
+.dropdown>a::after{
+	content:"\25bc";
+	font-size:12px;
+	margin-left:12px;
+}
+
+ul.dropdown-menu{
+	position:absolute;
+	background-color:black;
+	overflow:hidden;
+	max-height:0;
+    transition: max-height 0.5s;
+}
+
+li.dropdown:hover >.dropdown-menu{
+	max-height:300px;
+}
+
+
+.banner{
+    text-align: center;
+}
+
+.banner img{
+    max-width: auto;
+    text-align: center;
+}
+
+h1{
+    max-width:75%;
+    margin: 50px auto 10px;
+}
+
+.container{
+    max-width:40%;
+    margin: 0 auto;
+    padding:0 auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.productimage{
+    text-align: center;
+   
+}
+
+.productimage img{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*.column{
+    margin :0px;
+    padding: 15px;
+
+}*/
+
+.container h3{
+    margin: 0;
+    padding: 0;
+}
+
+.container p{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/*footer{
+    background-color: white;
+    max-height: 100px;
+    padding: 0px;*/
+
+footer{
+    background-color: white;
+    max-height: 100px;
+    padding: 100px 0 10;
+}
+    
+    
+}
+.social{
+}
+
+
+.social-nav{
+    list-style: none;
+    margin: 0 0 0 0;
+    padding: 0;
+    text-align: right;
+    float:right;
+}
+
+.social-nav li{
+    display: inline;
+}
+
+.social-nav li i{
+    font-size: 20px;
+}
+
+.social-nav a{
+    display: inline-block;
+    padding: 0 10 0 0;
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    line-height: 10px;  
+    color:darkgray;
+}
+
+.copyright{
+    color:darkgray;
+    font-size:12px;
+    margin: 0 50;   
+}
+
+.website{
+    color:darkgray;
+    float:left;
+    font-size:12px;
+    margin: 5 50;   
+}
